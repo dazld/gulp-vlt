@@ -13,12 +13,11 @@ var Promise = require('bluebird');
 
  svlt: {
     options: {
-        vaultWork: '../cms-pan-ui/cms-pan-ui-package/src/main/content/jcr_root/apps/richemont-pan/ui/',
+        
         checkout: {
             host: {
                 uri: 'http://localhost:<%=port%>/crx',
-                user: 'admin',
-                password: 'admin'
+        
             },
             autoforce: true,
             stdout: true
